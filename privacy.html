@@ -10,7 +10,7 @@
 <main>
 
 <h1>Bite AI Privacy Policy</h1>
-<p class="updated">Last updated 25 August 2026 · Church Street Studios</p>
+<p class="updated">Last updated 28 August 2026 · Church Street Studios</p>
 
 <p>Bite AI helps you track what you eat. This policy explains exactly what leaves your phone, who receives it, and how to get rid of it. It matches the privacy label on our App Store page — if the two ever disagree, tell us and we will fix it.</p>
 
@@ -42,14 +42,18 @@
 <h2>Apple Health</h2>
 <p>If you turn on Apple Health, Bite AI writes the calories, protein, carbohydrates and fat from meals you log into Health, and reads back your dietary energy for the day. <strong>This stays between your device and Apple Health.</strong> We do not upload your Health records to our servers or send them to anyone. You can revoke access at any time in iOS Settings → Health → Data Access &amp; Devices → Bite AI.</p>
 
-<h2>How your food photos are used</h2>
-<p>When you scan a meal, the photo is sent to our AI providers — OpenAI and Anthropic — purely to estimate its nutrition, and the food names are looked up in nutrition databases (Nutritionix, and the USDA FoodData Central database). Your photos are <strong>not used to train AI models</strong> and are never shared for advertising. Photos you keep on a logged meal are stored on your device.</p>
+<h2>AI analysis of your food — what is sent, to whom, and your consent</h2>
+<p>Bite AI estimates calories and macros with a third-party AI service. <strong>The app asks for your permission before the first request</strong>, on a screen that repeats everything in this section, and you can review or change that choice at any time under <strong>Profile → Privacy &amp; Sources → AI Data Sharing</strong>. If you choose "Not Now", nothing is sent, and the photo, voice and AI-search features stay off until you allow it; the Food Database search still works, because it does not use an AI service.</p>
+<p><strong>What is sent.</strong> Only the content you are asking the app to analyze: the photo or video frames of a meal you scan, photos of nutrition labels, and food descriptions you type or speak (spoken food logs are converted to text on your device first). Nothing else is attached — not your name, email address, weight, goals, birthday, Apple Health data, or account ID.</p>
+<p><strong>Who receives it.</strong> <strong>OpenAI</strong> (OpenAI, L.L.C., United States) — the AI provider that analyzes the image or text. The request is routed through Bite AI's own server, which forwards it and does not keep a copy of your photo. Food names identified in a scan, and barcodes you scan, are also looked up in nutrition databases: <strong>USDA FoodData Central</strong>, <strong>Open Food Facts</strong>, and <strong>Nutritionix</strong>. These receive only the food name or barcode.</p>
+<p><strong>How it is used.</strong> Solely to estimate the nutrition in that meal. Your photos and descriptions are <strong>not used to train AI models</strong> — we use OpenAI's API, whose terms exclude API data from training — and they are never shared for advertising or sold. OpenAI may retain API inputs for up to 30 days for abuse monitoring, per its API data-usage policy. Photos you keep on a logged meal are stored on your device (and, if cloud sync is on, in your account).</p>
+<p><strong>Same protection.</strong> Every provider above is bound by its own privacy terms to use the data only to provide the service to us: <a href="https://openai.com/policies/api-data-usage-policies">OpenAI API data usage</a>, <a href="https://www.nutritionix.com/privacy">Nutritionix</a>, <a href="https://world.openfoodfacts.org/privacy">Open Food Facts</a>. USDA FoodData Central is a public U.S. government database.</p>
 
 <h2>Who else receives data</h2>
 <ul>
   <li><strong>Supabase</strong> — hosts your account and, if enabled, your synced logs.</li>
-  <li><strong>OpenAI and Anthropic</strong> — analyze scan photos and food descriptions.</li>
-  <li><strong>Nutritionix and USDA FoodData Central</strong> — nutrition lookups.</li>
+  <li><strong>OpenAI</strong> — analyzes scan photos, label photos and food descriptions, only after you allow it in the app (see above).</li>
+  <li><strong>USDA FoodData Central, Open Food Facts and Nutritionix</strong> — nutrition lookups by food name or barcode.</li>
   <li><strong>Mixpanel</strong> — anonymous product analytics.</li>
   <li><strong>Superwall</strong> — runs the subscription screen.</li>
   <li><strong>Apple</strong> — handles all billing. We never see your payment details.</li>
@@ -61,6 +65,7 @@
   <li>Delete any logged meal in the app at any time.</li>
   <li><strong>Profile → Delete Account</strong> permanently deletes your account and every row of your data from our servers. This cannot be undone.</li>
   <li><strong>Profile → Reset All Data</strong> clears everything stored on the device.</li>
+  <li><strong>Profile → Privacy &amp; Sources → AI Data Sharing</strong> to review or withdraw your consent to AI analysis.</li>
   <li>Turn off Apple Health access in iOS Settings.</li>
   <li>Email us and we will delete your data on request.</li>
 </ul>
